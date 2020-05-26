@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct  EventList: Decodable {
+    enum CodingKeys: String, CodingKey {
+        case events
+    }
+
+    let events: [Event]
+}

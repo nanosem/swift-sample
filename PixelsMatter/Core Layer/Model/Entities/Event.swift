@@ -1,5 +1,5 @@
 //
-//  Item.swift
+//  Event.swift
 //  PixelsMatter
 //
 //  Created by Sem Vasiutin on 12.05.2020.
@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct Item: Codable {
-    var id: String
+struct Event: Decodable {
+    var id: Int
     var name: String
+    var active: Bool
 }

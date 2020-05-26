@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Constants {
+
+    // MARK: - Xib names
+    static let listViewXib = "List"
+}
